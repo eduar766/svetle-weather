@@ -1,8 +1,10 @@
+require(dotenv)
+
 const FETCH_OPTION = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'a3b3a8fe6bmshdce825fe196180fp1c65e0jsnc55ec6815a21',
-        'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+        'X-RapidAPI-Key': process.env.RAPID_API_KEY,
+        'X-RapidAPI-Host': process.env.RAPID_API_HOST 
     }
 };
 
