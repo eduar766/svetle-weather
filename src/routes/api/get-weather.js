@@ -1,4 +1,4 @@
-require(dotenv)
+import 'dotenv/config'
 
 const FETCH_OPTION = {
     method: 'GET',
